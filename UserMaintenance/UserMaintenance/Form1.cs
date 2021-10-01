@@ -51,5 +51,11 @@ namespace UserMaintenance
                 }
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //users.Remove(listBox1.SelectedItem);
+            MessageBox.Show("A törlés nem működik!");
+        }
     }
 }
